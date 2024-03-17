@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.pic{
+    width: 100%;
+    height: 641px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.man{
+    height: 500px !important;
+}
+.ha{
+    height: 585px;
+}
+.scss{
+    text-align: center;
+    width: 25%;
+}
+.pic2{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+.bbb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 100px;
+}
+.plar{
+    font-family: cursive;
+}
+.ggg{
+    width: 50%;
+    padding: 30px;
+}
+.ttt{
+    width: 50%;
+}
+.muжik{
+    width: 100%;
+}
+.aaa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+@media(max-width:700px){
+    .scss{
+        width: 100%;
+    }
+    .pic2{
+        width: 100px;
+        height: 100px;
+    }
+    .ggg{
+        width: 100% ;
+        padding: 0px;
+    }
+    .ttt{
+        width: 100% ;
+    }
+    .bbb{
+        padding: 5px;
+    }
+    .aaa{
+        padding: 5px;
+    }
+}
